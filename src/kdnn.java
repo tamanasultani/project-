@@ -17,7 +17,9 @@ public class Kdnn {
 
     static class KdNode {
         Point point;
-        KdNode left, right;
+        KdNode left;
+         KdNode left;
+        
 
         KdNode(Point point) {
             this.point = point;
@@ -26,7 +28,7 @@ public class Kdnn {
         }
     }
 
-    // a  calss to represent k-d tree 
+    
     static class KdTree {
         private KdNode root;
         private int k;  
